@@ -1,0 +1,7 @@
+zend_extension=<%= %x[ php -i | grep extension_dir | awk '{print $(NF)}' ].strip %>/xdebug.so
+xdebug.auto_trace=on
+xdebug.show_exception_trace=on
+xdebug.collect_vars=on
+xdebug.collect_params=4
+xdebug.collect_return=on
+xdebug.show_local_vars=on
